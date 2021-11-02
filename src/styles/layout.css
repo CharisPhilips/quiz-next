@@ -1,0 +1,37 @@
+.mainContainer {
+  width: 100%;
+  padding-top: 56px;
+  padding-bottom: 56px;
+  min-height: calc(100vh - 56px);
+}
+
+.pageHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.pageHeader h1.title {
+  margin-bottom: 0;
+}
+
+.pageHeaderFilter {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+.panel-section-one {
+  max-width: 768px;
+}
+
+.quiz-container {
+}
+
+@media (max-width: 991px) {
+  .quiz-container {
+    width: 100%;
+    max-width: 100%;
+  }
+}
